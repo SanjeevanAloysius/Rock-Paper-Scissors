@@ -2,51 +2,7 @@
 <html>
   <head>
     <title>Rock-Paper-Scissors</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: rgb(255, 255, 255);
-        background-image: linear-gradient(-45deg, #f06, #f90, #f06, #f90);
-        background-size: 400% 400%;
-        animation: backgroundAnimation 10s ease infinite;
-      }
-
-      @keyframes backgroundAnimation {
-        0% {
-          background-position: 0% 0%;
-        }
-        100% {
-          background-position: 100% 100%;
-        }
-      }
-
-      p {
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-
-      .button-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 20px;
-      }
-
-      .game-button {
-        font-size: 36px;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        background-color: #ffee00;
-        border-radius: 8px;
-        transition: background-color 0.3s ease;
-      }
-
-      .game-button:hover {
-        background-color: #e0e0e0;
-      }
-    </style>
+    <link rel="stylesheet" href="./Simple-rock-paper-scissors.css" />
   </head>
   <body>
     <p>Rock | Paper | Scissors</p>
@@ -79,6 +35,7 @@
         alert(
           `You picked ${userChoice}. Computer picked ${computerChoice}. ${result}`
         );
+        //This is rock-paper-scissors html and javascript code
       }
     </script>
   </body>
